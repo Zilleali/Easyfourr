@@ -1,0 +1,25 @@
+<?php
+
+
+
+$conn = $pdo->open();
+
+try {
+    $stmt = $conn->query("SELECT * FROM products");
+    $rows = $stmt->fetchAll();
+} catch (PDOException $e) {
+    echo "There is some problem in connection: " . $e->getMessage();
+}
+
+$pdo->close();
+
+foreach ($rows as $row) {
+
+	
+    echo "<h2>" . $row['name'] . "</h2>";
+    echo "<p >" . $row['description'] . "</p>";
+    echo "<img src='./images/" . $row['photo'] . "'>";
+    echo "<p>" . $row['price'] . "</p>";
+}
+
+?>
