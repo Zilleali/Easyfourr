@@ -64,7 +64,7 @@
 						<p>Email: ".$email."</p>
 						<p>Password: ".$_POST['password']."</p>
 						<p>Please click the link below to activate your account.</p>
-						<a href='http://localhost/ecommerce/activate.php?code=".$code."&user=".$userid."'>Activate Account</a>
+						<a href='http://localhost/ecomm/activate.php?code=".$code."&user=".$userid."'>Activate Account</a>
 					";
 
 					//Load phpmailer
@@ -74,10 +74,10 @@
 				    try {
 				        //Server settings
 				        $mail->isSMTP();                                     
-				        $mail->Host = 'smtp.gmail.com';                      
+				        $mail->Host = 'mail.zilleali.com';                      
 				        $mail->SMTPAuth = true;                               
-				        $mail->Username = 'testsourcecodester@gmail.com';     
-				        $mail->Password = 'mysourcepass';                    
+				        $mail->Username = 'info@zilleali.com';     
+				        $mail->Password = 'm6cEar30gcf[';                    
 				        $mail->SMTPOptions = array(
 				            'ssl' => array(
 				            'verify_peer' => false,
@@ -88,11 +88,11 @@
 				        $mail->SMTPSecure = 'ssl';                           
 				        $mail->Port = 465;                                   
 
-				        $mail->setFrom('testsourcecodester@gmail.com');
+				        $mail->setFrom('info@zilleali.com');
 				        
 				        //Recipients
 				        $mail->addAddress($email);              
-				        $mail->addReplyTo('testsourcecodester@gmail.com');
+				        $mail->addReplyTo('zilleali1245@gmail.com');
 				       
 				        //Content
 				        $mail->isHTML(true);                                  
