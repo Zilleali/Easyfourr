@@ -50,88 +50,155 @@
 							?>
 
 
-							<div class="container text-center mt-2 service-container">
-								<h1 class="text-center text-black mt-2">ECOMMERCE - DESIGN - DEVELOPMENT</h1>
-								<h4 class="text-center text-black">EASYZON are storytellers who are passionate about
-									everything digital. Since we began life in 2015, we have embraced each<br> milestone
-									in digital marketing with profound zeal. From tried-and-tested strategies to
-									cutting-edge technologies, we have <br>delivered time and again, be it E-COMMERCE,
-									DESIGN, DEVELOPMENT</h4>
-								<div class=" container text-center service-container">
-									<!-- Web development -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto ">
-										<article class="text-left">
-											<h2>Web development</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/web-development.png?resize=1536%2C1536&ssl=1"
-											alt="">
-									</div>
-									<!-- Graphic Design -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>Graphic Design</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/graphic-design.png?resize=1536%2C1536&ssl=1"
-											alt="Graphic-Design">
-									</div>
-									<!-- Digital Marketing -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>Digital Marketing</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/digital-marketing.png?resize=1536%2C1536&ssl=1"
-											alt="Digital Marketing">
-									</div>
-									<!-- SEO & SMM -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>SEO & SMM</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/SEOSMM.png?resize=1536%2C1536&ssl=1"
-											alt="SEO & SMM">
-									</div>
-									<!-- Content Creation -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>Content Creation</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/Content-creation.png?resize=1536%2C1536&ssl=1"
-											alt="Content Creation">
-									</div>
-									<!-- Amazon -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>Amazon</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/Amazon.png?resize=1536%2C1536&ssl=1"
-											alt="Amazon">
-									</div>
-									<!-- ChatGPT -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>ChatGPT</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/chatgpt.png?resize=1536%2C1536&ssl=1"
-											alt="ChatGPT">
-									</div>
-									<!-- Video Animation -->
-									<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 container_foto">
-										<article class="text-left">
-											<h2>Video Animation</h2>
-											<h4>Descripción corta de la imagen en cuestión</h4>
-										</article>
-										<img src="https://i0.wp.com/easyzon.us/wp-content/uploads/2023/04/video-animation.png?resize=1536%2C1536&ssl=1"
-											alt="Video Animation">
-									</div>
-								</div>
-							</div>
+<div class="cards-list">
+  
+  <div class="card 1">
+	<div class="card_image"> <img src="images/digitalmarketing.jpg" /> </div>
+	<div class="card_title title-white">
+	  <p>Digital Marketing</p>
+	</div>
+  </div>
+  
+  <div class="card 1">
+	<div class="card_image"> <img src="images/design2.jpg" /> </div>
+	<div class="card_title title-white">
+	  <p>Graphics & Design</p>
+	</div>
+  </div>
+  <div class="card 1">
+	<div class="card_image"> <img src="images/h1.jpg" /> </div>
+	<div class="card_title title-white">
+	  <p>Programing & Tech</p>
+	</div>
+  </div>
+  <div class="card 1">
+	<div class="card_image"> <img src="images/h3.jpg" /> </div>
+	<div class="card_title title-white">
+	  <p>Video Editing</p>
+	</div>
+  </div>
+  
+  <div class="card 1">
+	<div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
+	<div class="card_title title-white">
+	  <p>Contant Creation</p>
+	</div>
+  </div>
+  <div class="card 1">
+	<div class="card_image"> <img src="images/seo.jpg" /> </div>
+	<div class="card_title title-white">
+	  <p>SEO & SMM</p>
+	</div>
+  </div>
+  
+	<!-- <div class="card 2">
+	<div class="card_image">
+	  <img src="https://cdn.blackmilkclothing.com/media/wysiwyg/Wallpapers/PhoneWallpapers_FloralCoral.jpg" />
+	  </div>
+	<div class="card_title title-white">
+	  <p>Card Title</p>
+	</div>
+  </div> -->
+  
+  <!-- <div class="card 3">
+	<div class="card_image">
+	  <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+	</div>
+	<div class="card_title">
+	  <p>Card Title</p>
+	</div>
+  </div> -->
+	
+	<!-- <div class="card 4">
+	<div class="card_image">
+	  <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
+	  </div>
+	<div class="card_title title-black">
+	  <p>Card Title</p>
+	</div>
+	</div> -->
+  
+  </div>
+  <style>
+	  .cards-list {
+	z-index: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+  
+  .card {
+	margin: 30px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+	cursor: pointer;
+	transition: 0.4s;
+  }
+  
+  .card .card_image {
+	width: inherit;
+	height: inherit;
+	border-radius: 40px;
+  }
+  
+  .card .card_image img {
+	width: inherit;
+	height: inherit;
+	border-radius: 40px;
+	object-fit: cover;
+  }
+  
+  .card .card_title {
+	text-align: center;
+	border-radius: 0px 0px 40px 40px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: -80px;
+	height: 40px;
+  }
+  
+  .card:hover {
+	transform: scale(0.9, 0.9);
+	box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+	  -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+  
+  .title-white {
+	color: white;
+  }
+  
+  .title-black {
+	color: black;
+  }
+  
+  @media all and (max-width: 500px) {
+	.card-list {
+	  /* On small screens, we are no longer using row direction but column */
+	  flex-direction: column;
+	}
+  }
+  
+  
+  /* 
+  .card {
+	margin: 30px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 40px;
+	background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+	transition: 0.4s;
+  } */
+  
+  </style>
 							<!--  -->
 							<!-- <h2>Monthly Top Sellers</h2>
 							<?php
