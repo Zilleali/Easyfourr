@@ -3,7 +3,7 @@
 <head>
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<title>Ecommerce Site using PHP</title>
+  	<title>EasyZon</title>
   	<!-- Tell the browser to be responsive to screen width -->
   	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   	<!-- Bootstrap 3.3.7 -->
@@ -34,7 +34,8 @@
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     <!-- Google Recaptcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
-
+ <!-- Custom CSS -->
+ <link rel="stylesheet" href="dist/css/custom-css.css">
   	<!-- Custom CSS -->
     <style type="text/css">
     /* Small devices (tablets, 768px and up) */

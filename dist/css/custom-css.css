@@ -1,0 +1,112 @@
+/* `````````````````````````` */
+        /* Home Page */
+/* `````````````````````````` */
+.service-container{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container_foto {
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #FCFBFA;
+}
+
+.container_foto {
+    /* background-color: rgba(57, 62, 93, 0.7); */
+    padding: 0;
+    overflow: hidden;
+    max-width: 253px;
+    margin: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.container_foto article {
+    padding: 10%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.container_foto h2 {
+    color: #000;
+    font-weight: 800;
+    font-size: 25px;
+    border-bottom: #fff solid 1px;
+}
+
+.container_foto h4 {
+    font-weight: 300;
+    color: #000;
+    font-size: 16px;
+}
+
+.container_foto img {
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+    top: 0;
+    left: 0;
+    /* opacity: 0.6; */
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+
+
+/*hovers*/
+
+.container_foto:hover {
+    cursor: pointer;
+}
+
+.container_foto:hover img {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.container_foto:hover article {
+    -ms-transform: translate(2px, -69px);
+    -webkit-transform: translate(2px, -69px);
+    -moz-transform: translate(2px, -69px);
+    -o-transform: translate(2px, -69px);
+    transform: translate(2px, -69px);
+}
+
+.container_foto:hover .ver_mas {
+    -ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+/* `````````````````````````` */
+        /* GIG  Page */
+/* `````````````````````````` */
+
+
+img.zoom {
+    padding: 5px;
+    /* border: 1px solid #000; */
+    border-radius: 19px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}

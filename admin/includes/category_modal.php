@@ -17,8 +17,8 @@
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="name" name="name" required>
                       <!-- <input type="file" name="image" id="img" name="img" class="form-control"> -->
-                      <label for="img" class="col-sm-3 control-label">Img</label>
-                      <input type="file" name="image" id="img" name="img" class="form-control">
+                      <!-- <label for="img" class="col-sm-3 control-label">Img</label>
+                      <input type="file" name="image" id="img" name="img" class="form-control"> -->
 
                     </div>
                 </div>
