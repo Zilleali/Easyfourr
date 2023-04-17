@@ -96,7 +96,7 @@
 				       
 				        //Content
 				        $mail->isHTML(true);                                  
-				        $mail->Subject = 'ECommerce Site Sign Up';
+				        $mail->Subject = 'EASYZON Sign Up';
 				        $mail->Body    = $message;
 
 				        $mail->send();

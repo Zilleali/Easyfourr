@@ -1,6 +1,9 @@
 /* `````````````````````````` */
         /* Home Page */
 /* `````````````````````````` */
+.form-control{
+    border-radius: 10px;
+}
 .service-container{
     display: flex;
     flex-direction: row;
