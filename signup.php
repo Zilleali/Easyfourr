@@ -35,24 +35,7 @@ if (isset($_SESSION['captcha'])) {
       unset($_SESSION['success']);
     }
     ?>
-    <script>
-      function validateForm() {
-        // Define a regular expression to match Google email domains
-        const googleEmailRegex = /^[a-zA-Z0-9_.+-]+@google\.com$/;
-
-        // Get the user's email address from the registration form
-        const userEmail = document.getElementById("email").value;
-
-        // Check if the email address matches the Google email domain regex
-        if (googleEmailRegex.test(userEmail)) {
-          // Email address is valid - submit the registration form
-          document.getElementById("registration-form").submit();
-        } else {
-          // Email address is not valid - show an error message
-          document.getElementById("email-error").innerText = "Please enter a valid Google email address";
-        }
-      }
-    </script>
+   
     <div class="register-box-body">
       <p class="login-box-msg">Register a new membership</p>
 

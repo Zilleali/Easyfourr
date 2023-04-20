@@ -6,7 +6,9 @@ $slug = $_GET['product'];
 
 try {
 
-	$stmt = $conn->prepare("SELECT *, products.name AS prodname, category.name AS catname, products.id AS prodid FROM products LEFT JOIN category ON category.id=products.category_id WHERE slug = :slug");
+	$stmt = $conn->prepare("SELECT *, products.name AS prodname, category.name AS catname, products.id AS prodid,
+	products.basic_price_title As bpt ,products.basic_price As bp,products.basic_description As basicd
+	FROM products LEFT JOIN category ON category.id=products.category_id WHERE slug = :slug");
 	$stmt->execute(['slug' => $slug]);
 	$product = $stmt->fetch();
 
@@ -52,68 +54,135 @@ if ($product['date_view'] == $now) {
 								<button type="button" class="close"><span aria-hidden="true">&times;</span></button>
 								<span class="message"></span>
 							</div>
-							<div class="row">
-								<div class="col-sm-6 col-lg-7">
+							<div class="col-lg-12">
+								<div class="col-sm-6">
 									<h1 class="page-header">
 										<?php echo $product['prodname']; ?>
 									</h1>
-									
+									<!-- Gig Category -->
 									<p><b>Category:</b> <a
 											href="category.php?category=<?php echo $product['cat_slug']; ?>"><?php echo $product['catname']; ?></a></p>
-									<p><b>Description:</b></p>
-									<p>
+									<!-- <img src="<?php echo (!empty($product['photo'])) ? 'images/' . $product['photo'] : 'images/noimage.jpg'; ?>"
+										width="100%" class="zoom"
+										data-magnify-src="images/large-<?php echo $product['photo']; ?>"> -->
+									<!-- Gig Price -->
+									<!-- <h3><b>&#36; <?php echo number_format($product['price'], 2); ?></b></h3> -->
+
+									<!-- Gig Description -->
+									<h3><b>Description:</b></h3>
+									<p style="font-size: 18px !important;">
 										<?php echo $product['description']; ?>
 									</p>
 								</div>
-								<div class="col-sm-5 ">
-									<img src="<?php echo (!empty($product['photo'])) ? 'images/' . $product['photo'] : 'images/noimage.jpg'; ?>"
+								<!-- Page Center Row -->
+								<div class="col-sm-8 col-lg-8">
+								<img src="<?php echo (!empty($product['photo'])) ? 'images/' . $product['photo'] : 'images/noimage.jpg'; ?>"
 										width="100%" class="zoom"
 										data-magnify-src="images/large-<?php echo $product['photo']; ?>">
-									<br><br>
-									<form class="form-inline" id="productForm">
-										<div class="form-group">
-											<!-- Gig Price -->
-											<span class="span">
-												<h3><b>&#36;
-														<?php echo number_format($product['price'], 2); ?>
-													</b></h3>
-											</span>
-											<div class="input-group col-sm-4 col-lg-7">
-
-												<span class="input-group-btn">
-													<button type="button" id="minus"
-														class="btn btn-default btn-flat btn-lg"><i
-															class="fa fa-minus"></i></button>
-												</span>
-
-												<input type="text" name="quantity" id="quantity"
-													class="form-control input-lg" value="1">
-												<span class="input-group-btn">
-													<button type="button" id="add"
-														class="btn btn-default btn-flat btn-lg"><i
-															class="fa fa-plus"></i>
-													</button>
-
-												</span>
-
-												<input type="hidden" value="<?php echo $product['prodid']; ?>"
-													name="id">
-											</div>
-											<button type="submit" class="btn btn-primary btn-lg btn-flat"><i
-													class="fa fa-shopping-cart"></i> Add to Cart</button>
+									<!-- <br><br>
+									<div class="sidenav">
+										<div class="tab">
+											<button class="tablinks" onclick="openCity(event, 'London')"
+												id="defaultOpen">Basic</button>
+											<button class="tablinks"
+												onclick="openCity(event, 'Paris')">Standard</button>
+											<button class="tablinks" onclick="openCity(event, 'Tokyo')">Premium</button>
 										</div>
-									</form>
-								</div>
 
+										<div id="London" class="tabcontent">
+											<div class="price">
+												<h3 class="text-left" name="basic_price_title"><?php echo $product['basicd']; ?></h3>
+												<h3 class="text-right"></h3>
+											</div>
+											<p  ></p>
+										</div>
+
+										<div id="Paris" class="tabcontent">
+											<div class="price">
+												<h3 class="text-left" name="standerd-price-title">SHOPIFY</h3>
+												<h3 class="text-right" name="standerd-price">30$</h3>
+											</div>
+
+											<p>customization of the home page and the product page Before placing your
+												order, please contact us.</p>
+										</div>
+
+										<div id="Tokyo" class="tabcontent">
+											<div class="price">
+												<h3 class="text-left" name="standerd-price-title">SHOPIFY ADVANCED
+												</h3>
+												<h3 class="text-right" name="standerd-price">30$</h3>
+											</div>
+											<p>Five pages in a theme design. Get in touch before placing your order.</p>
+										</div>
+									</div> -->
+									<!-- Sidebar CSS -->
+									<style>
+										/* Style the tab */
+										.tab {
+											overflow: hidden;
+											border: 1px solid #ccc;
+											/* background-color: #f1f1f1; */
+										}
+
+										/* Style the buttons inside the tab */
+										/* .tab button {
+											background-color: inherit; */
+											/* float: left; */
+											/* border: none;
+											outline: none;
+											cursor: pointer;
+											padding: 14px 16px;
+											transition: 0.3s;
+											font-size: 17px;
+										} */
+
+										/* Change background color of buttons on hover */
+										/* .tab button:hover {
+											background-color: #ddd;
+										} */
+
+										/* Create an active/current tablink class */
+										/* .tab button.active {
+											background-color: #ccc;
+										} */
+										/* Style the tab content */
+										/* .tabcontent {
+											display: none;
+											padding: 6px 12px;
+											border: 1px solid #ccc;
+											border-top: none;
+										}							
+										.tab {
+											border-radius: 5px;
+											border: 1px solid #000;
+											text-align: center;
+										}
+
+										.tab .button {
+											float: none !important;
+										}
+
+										.sidenav {
+											width: 330px;
+											position: fixed;
+											z-index: 1;
+											top: 20px;
+											overflow-x: hidden;
+											padding: 40px 0;
+										}
+
+										.price {
+											display: flex;
+											justify-content: space-between;
+										}
+									</style> */
+								</div>
+							
 							</div>
-							<br>
-							<div class="fb-comments"
-								data-href="http://localhost/ecommerce/product.php?product=<?php echo $slug; ?>"
-								data-numposts="10" width="100%"></div>
+							
 						</div>
-						<!-- <div class="col-sm-3">
-					<?php include 'includes/sidebar.php'; ?>
-				</div> -->
+						
 					</div>
 				</section>
 
@@ -143,6 +212,25 @@ if ($product['date_view'] == $now) {
 
 		});
 	</script>
+	<script>
+		function openCity(evt, cityName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(cityName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
+
 </body>
 
 </html>

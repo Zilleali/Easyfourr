@@ -49,141 +49,159 @@
 							}
 							?>
 
+							<div class="container">
+								<h1 class="text-left text-black " style="font-size:50px"> Find The Perfect Services<br> For Your Business
+</h1>
+							</div>
+							<div class="cards-list">
 
-<div class="cards-list">
-  
-  <div class="card 1">
-	<div class="card_image"> <img src="images/digitalmarketing.jpg" /> </div>
-	<div class="card_title title-white">
-	  <p>Digital Marketing</p>
-	</div>
-  </div>
-  
-  <div class="card 1">
-	<div class="card_image"> <img src="images/design2.jpg" /> </div>
-	<div class="card_title title-white">
-	  <p>Graphics & Design</p>
-	</div>
-  </div>
-  <div class="card 1">
-	<div class="card_image"> <img src="images/h1.jpg" /> </div>
-	<div class="card_title title-white">
-	  <p>Programing & Tech</p>
-	</div>
-  </div>
-  <div class="card 1">
-	<div class="card_image"> <img src="images/h3.jpg" /> </div>
-	<div class="card_title title-white">
-	  <p>Video Editing</p>
-	</div>
-  </div>
-  
-  <div class="card 1">
-	<div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
-	<div class="card_title title-white">
-	  <p>Contant Creation</p>
-	</div>
-  </div>
-  <div class="card 1">
-	<div class="card_image"> <img src="images/seo.jpg" /> </div>
-	<div class="card_title title-white">
-	  <p>SEO & SMM</p>
-	</div>
-  </div>
-  
-	<!-- <div class="card 2">
-	<div class="card_image">
-	  <img src="https://cdn.blackmilkclothing.com/media/wysiwyg/Wallpapers/PhoneWallpapers_FloralCoral.jpg" />
-	  </div>
-	<div class="card_title title-white">
-	  <p>Card Title</p>
-	</div>
-  </div> -->
-  
-  <!-- <div class="card 3">
-	<div class="card_image">
-	  <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
-	</div>
-	<div class="card_title">
-	  <p>Card Title</p>
-	</div>
-  </div> -->
-	
-	<!-- <div class="card 4">
-	<div class="card_image">
-	  <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
-	  </div>
-	<div class="card_title title-black">
-	  <p>Card Title</p>
-	</div>
-	</div> -->
-  
-  </div>
-  <style>
-	  .cards-list {
-	z-index: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-  }
-  
-  .card {
-	margin: 30px auto;
-	width: 300px;
-	height: 300px;
-	border-radius: 40px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-	cursor: pointer;
-	transition: 0.4s;
-  }
-  
-  .card .card_image {
-	width: inherit;
-	height: inherit;
-	border-radius: 40px;
-  }
-  
-  .card .card_image img {
-	width: inherit;
-	height: inherit;
-	border-radius: 40px;
-	object-fit: cover;
-  }
-  
-  .card .card_title {
-	text-align: center;
-	border-radius: 0px 0px 40px 40px;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	margin-top: -80px;
-	height: 40px;
-  }
-  
-  .card:hover {
-	transform: scale(0.9, 0.9);
-	box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-	  -5px -5px 30px 15px rgba(0,0,0,0.22);
-  }
-  
-  .title-white {
-	color: white;
-  }
-  
-  .title-black {
-	color: black;
-  }
-  
-  @media all and (max-width: 500px) {
-	.card-list {
-	  /* On small screens, we are no longer using row direction but column */
-	  flex-direction: column;
-	}
-  }
-  
-  
-  /* 
+								<div class="card 1" >
+									<div class="card_image" > <img src="images/digitalmarketing.jpg" alt="Digital Marketing" /> </div>
+									<a href="http://localhost/ecomm/category.php?category=Digital-Marketing">
+									<div class="card_title title-white">
+										<p>Digital Marketing</p>
+									</div>
+									</a>
+								</div>
+								<!-- Graphics & Design -->
+								<div class="card 1">
+									<div class="card_image"> <img src="images/design2.jpg" alt="Graphics & Design" /> </div>
+									<a href="http://localhost/ecomm/category.php?category=Graphics-Design">
+									<div class="card_title title-white">
+										<p>Graphics & Design</p>
+									</div>
+									</a>
+								</div>
+								<!-- Programing & Tech -->
+								<div class="card 1">
+									<div class="card_image"> <img src="images/h1.jpg" alt="Programing & Tech" /> </div>
+									<a href="http://localhost/ecomm/category.php?category=Programing-Tech">
+									<div class="card_title title-white">
+										<p>Programing & Tech</p>
+									</div>
+									</a>
+								</div>
+								<!-- Video Editing -->
+								<div class="card 1">
+									<div class="card_image"> <img src="images/h3.jpg" alt="Video Editing"/> </div>
+									<a href="http://localhost/ecomm/category.php?category=Video-Editing">
+									<div class="card_title title-white">
+										<p>Video Editing</p>
+									</div>
+									</a>
+								</div>
+								<!-- Contant Creation -->
+								<div class="card 1">
+									<div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
+									<a href="http://localhost/ecomm/category.php?category=Contant-Creation">
+									<div class="card_title title-white">
+										<p>Contant Creation</p>
+									</div>
+									</a>
+								</div>
+								<!-- SEO & SMM -->
+								<div class="card 1">
+									<div class="card_image"> <img src="images/seo.jpg" alt="SEO & SMM"/> </div>
+									<a href="http://localhost/ecomm/category.php?category=SEO-SMM">
+									<div class="card_title title-white">
+										<p>SEO & SMM</p>
+									</div>
+									</a>
+								</div>
+
+								<!-- <div class="card 2">
+								<div class="card_image">
+								<img src="https://cdn.blackmilkclothing.com/media/wysiwyg/Wallpapers/PhoneWallpapers_FloralCoral.jpg" />
+								</div>
+								<div class="card_title title-white">
+								<p>Card Title</p>
+								</div>
+							</div> -->
+
+														<!-- <div class="card 3">
+							<div class="card_image">
+							<img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+							</div>
+							<div class="card_title">
+							<p>Card Title</p>
+							</div>
+						</div> -->
+
+														<!-- <div class="card 4">
+							<div class="card_image">
+							<img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
+							</div>
+							<div class="card_title title-black">
+							<p>Card Title</p>
+							</div>
+							</div> -->
+
+							</div>
+							<style>
+								.cards-list {
+									z-index: 0;
+									width: 100%;
+									display: flex;
+									justify-content: space-around;
+									flex-wrap: wrap;
+								}
+
+								.card {
+									margin: 30px auto;
+									width: 300px;
+									height: 300px;
+									border-radius: 40px;
+									box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+									cursor: pointer;
+									transition: 0.4s;
+								}
+
+								.card .card_image {
+									width: inherit;
+									height: inherit;
+									border-radius: 40px;
+								}
+
+								.card .card_image img {
+									width: inherit;
+									height: inherit;
+									border-radius: 40px;
+									object-fit: cover;
+								}
+
+								.card .card_title {
+									text-align: center;
+									border-radius: 0px 0px 40px 40px;
+									font-family: sans-serif;
+									font-weight: bold;
+									font-size: 30px;
+									margin-top: -80px;
+									height: 40px;
+								}
+
+								.card:hover {
+									transform: scale(0.9, 0.9);
+									box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+										-5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+								}
+
+								.title-white {
+									color: white;
+								}
+
+								.title-black {
+									color: black;
+								}
+
+								@media all and (max-width: 500px) {
+									.card-list {
+										/* On small screens, we are no longer using row direction but column */
+										flex-direction: column;
+									}
+								}
+
+
+								/* 
   .card {
 	margin: 30px auto;
 	width: 300px;
@@ -197,8 +215,7 @@
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
 	transition: 0.4s;
   } */
-  
-  </style>
+							</style>
 							<!--  -->
 							<!-- <h2>Monthly Top Sellers</h2>
 							<?php
@@ -242,10 +259,10 @@
 
 							?>
 						</div> -->
-						<!-- <div class="col-sm-3">
+							<!-- <div class="col-sm-3">
 							<?php include 'includes/sidebar.php'; ?>
 						</div> -->
-					</div>
+						</div>
 				</section>
 
 			</div>

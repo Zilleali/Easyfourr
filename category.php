@@ -30,7 +30,7 @@
 	      <section class="content">
 	        <div class="row">
 	        	<div class="col-sm-9">
-		            <h1 class="page-header"><?php echo $cat['name']; ?></h1>
+		            <h1 class="page-header text-black"  style="font-size:45px;"><?php echo $cat['name']; ?></h1>
 		       		<?php
 		       			
 		       			$conn = $pdo->open();
@@ -69,9 +69,9 @@
 
 		       		?> 
 	        	</div>
-	        	<div class="col-sm-3">
+	        	<!-- <div class="col-sm-3">
 	        		<?php include 'includes/sidebar.php'; ?>
-	        	</div>
+	        	</div> -->
 	        </div>
 	      </section>
 	     

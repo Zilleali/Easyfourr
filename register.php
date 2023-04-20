@@ -69,15 +69,17 @@
 
 					//Load phpmailer
 		    		require 'vendor/autoload.php';
-
+					global $error;
 		    		$mail = new PHPMailer(true);                             
 				    try {
 				        //Server settings
-				        $mail->isSMTP();                                     
+				        $mail ->SMTPDebug;
+						$mail->isSMTP();    
+						                               
 				        $mail->Host = 'mail.zilleali.com';                      
-				        $mail->SMTPAuth = true;                               
-				        $mail->Username = 'info@zilleali.com';     
-				        $mail->Password = 'm6cEar30gcf[';                    
+				        $mail->SMTPAuth = false;                               
+				        $mail->Username = 'contact@easy4.zilleali.com						';     
+				        $mail->Password = '#@Qwerty1212';                    
 				        $mail->SMTPOptions = array(
 				            'ssl' => array(
 				            'verify_peer' => false,
@@ -85,18 +87,18 @@
 				            'allow_self_signed' => true
 				            )
 				        );                         
-				        $mail->SMTPSecure = 'ssl';                           
+				        $mail->SMTPSecure = 'SSL/TLS';                           
 				        $mail->Port = 465;                                   
 
-				        $mail->setFrom('info@zilleali.com');
+				        $mail->setFrom('contact@easy4.zilleali.com');
 				        
 				        //Recipients
 				        $mail->addAddress($email);              
-				        $mail->addReplyTo('zilleali1245@gmail.com');
+				        $mail->addReplyTo('contact@easy4.zilleali.com');
 				       
 				        //Content
 				        $mail->isHTML(true);                                  
-				        $mail->Subject = 'EASYZON Sign Up';
+				        $mail->Subject = 'ECommerce Site Sign Up';
 				        $mail->Body    = $message;
 
 				        $mail->send();
