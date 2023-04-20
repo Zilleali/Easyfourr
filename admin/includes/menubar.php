@@ -18,7 +18,6 @@
       <li><a href="sales.php"><i class="fa fa-money"></i> <span>Sales</span></a></li>
       <li class="header">MANAGE</li>
       <li><a href="users.php"><i class="fa fa-users"></i> <span>Users</span></a></li>
-      <li><a href="users.php"><i class="fa fa-users"></i> <span> Mannage Clients</span></a></li>
       <li class="treeview">
         <a href="#">
           <i class="fa fa-barcode"></i>

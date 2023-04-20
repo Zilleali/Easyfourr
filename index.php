@@ -48,44 +48,62 @@
 	        		
 					<div class="cards-list">
   
-<div class="card 1">
-  <div class="card_image"> <img src="images/digitalmarketing.jpg" /> </div>
-  <div class="card_title title-white">
-    <p>Digital Marketing</p>
-  </div>
-</div>
+          <div class="cards-list">
+                <!-- Digital Marketing -->
+                <div class="card 1">
+                  <div class="card_image"> <img src="images/digitalmarketing.jpg" alt="Digital Marketing" /> </div>
+                  <a href="http://localhost/ecomm/category.php?category=Digital-Marketing">
+                    <div class="card_title title-white">
+                      <p>Digital Marketing</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Graphics & Design -->
+                <div class="card 1">
+                  <div class="card_image"> <img src="images/design2.jpg" alt="Graphics & Design" /> </div>
+                  <a href="http://localhost/ecomm/category.php?category=Graphics-Design">
+                    <div class="card_title title-white">
+                      <p>Graphics & Design</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Programing & Tech -->
+                <div class="card 1">
+                  <div class="card_image"> <img src="images/h1.jpg" alt="Programing & Tech" /> </div>
+                  <a href="http://localhost/ecomm/category.php?category=Programing-Tech">
+                    <div class="card_title title-white">
+                      <p>Programing & Tech</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Video Editing -->
+                <div class="card 1">
+                  <div class="card_image"> <img src="images/h3.jpg" alt="Video Editing" /> </div>
+                  <a href="http://localhost/ecomm/category.php?category=Video-Editing">
+                    <div class="card_title title-white">
+                      <p>Video Editing</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- Contant Creation -->
+                <div class="card 1">
+                  <div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
+                  <a href="http://localhost/ecomm/category.php?category=Contant-Creation">
+                    <div class="card_title title-white">
+                      <p>Contant Creation</p>
+                    </div>
+                  </a>
+                </div>
+                <!-- SEO & SMM -->
+                <div class="card 1">
+                  <div class="card_image"> <img src="images/seo.jpg" alt="SEO & SMM" /> </div>
+                  <a href="http://localhost/ecomm/category.php?category=SEO-SMM">
+                    <div class="card_title title-white">
+                      <p>SEO & SMM</p>
+                    </div>
+                  </a>
+                </div>
 
-<div class="card 1">
-  <div class="card_image"> <img src="images/design2.jpg" /> </div>
-  <div class="card_title title-white">
-    <p>Graphics & Design</p>
-  </div>
-</div>
-<div class="card 1">
-  <div class="card_image"> <img src="images/h1.jpg" /> </div>
-  <div class="card_title title-white">
-    <p>Programing & Tech</p>
-  </div>
-</div>
-<div class="card 1">
-  <div class="card_image"> <img src="images/h3.jpg" /> </div>
-  <div class="card_title title-white">
-    <p>Video Editing</p>
-  </div>
-</div>
-
-<div class="card 1">
-  <div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
-  <div class="card_title title-white">
-    <p>Contant Creation</p>
-  </div>
-</div>
-<div class="card 1">
-  <div class="card_image"> <img src="images/seo.jpg" /> </div>
-  <div class="card_title title-white">
-    <p>SEO & SMM</p>
-  </div>
-</div>
 
   <!-- <div class="card 2">
   <div class="card_image">
