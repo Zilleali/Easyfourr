@@ -52,7 +52,7 @@
                 <!-- Digital Marketing -->
                 <div class="card 1">
                   <div class="card_image"> <img src="images/digitalmarketing.jpg" alt="Digital Marketing" /> </div>
-                  <a href="http://localhost/ecomm/category.php?category=Digital-Marketing">
+                  <a href="https://easy4.zilleali.com/category.php?category=Digital-Marketing">
                     <div class="card_title title-white">
                       <p>Digital Marketing</p>
                     </div>
@@ -61,7 +61,7 @@
                 <!-- Graphics & Design -->
                 <div class="card 1">
                   <div class="card_image"> <img src="images/design2.jpg" alt="Graphics & Design" /> </div>
-                  <a href="http://localhost/ecomm/category.php?category=Graphics-Design">
+                  <a href="https://easy4.zilleali.com/category.php?category=Graphics-Design">
                     <div class="card_title title-white">
                       <p>Graphics & Design</p>
                     </div>
@@ -70,7 +70,7 @@
                 <!-- Programing & Tech -->
                 <div class="card 1">
                   <div class="card_image"> <img src="images/h1.jpg" alt="Programing & Tech" /> </div>
-                  <a href="http://localhost/ecomm/category.php?category=Programing-Tech">
+                  <a href="https://easy4.zilleali.com/category.php?category=Programing-Tech">
                     <div class="card_title title-white">
                       <p>Programing & Tech</p>
                     </div>
@@ -79,7 +79,7 @@
                 <!-- Video Editing -->
                 <div class="card 1">
                   <div class="card_image"> <img src="images/h3.jpg" alt="Video Editing" /> </div>
-                  <a href="http://localhost/ecomm/category.php?category=Video-Editing">
+                  <a href="https://easy4.zilleali.com/category.php?category=Video-Editing">
                     <div class="card_title title-white">
                       <p>Video Editing</p>
                     </div>
@@ -88,7 +88,7 @@
                 <!-- Contant Creation -->
                 <div class="card 1">
                   <div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
-                  <a href="http://localhost/ecomm/category.php?category=Contant-Creation">
+                  <a href="https://easy4.zilleali.com/category.php?category=Contant-Creation">
                     <div class="card_title title-white">
                       <p>Contant Creation</p>
                     </div>
@@ -97,7 +97,7 @@
                 <!-- SEO & SMM -->
                 <div class="card 1">
                   <div class="card_image"> <img src="images/seo.jpg" alt="SEO & SMM" /> </div>
-                  <a href="http://localhost/ecomm/category.php?category=SEO-SMM">
+                  <a href="https://easy4.zilleali.com/category.php?category=SEO-SMM">
                     <div class="card_title title-white">
                       <p>SEO & SMM</p>
                     </div>
