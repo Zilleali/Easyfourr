@@ -33,11 +33,11 @@
       <div class="pull-right hidden-xs">
       <div class="col-sm-6 social-menu">
   <ul>
-    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-    <li><a href=""><i class="fa fa-instagram"></i></a></li>
-    <li><a href=""><i class="fa fa-youtube"></i></a></li>
-    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+  <li><a href="https://www.facebook.com/easyzon"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://twitter.com/easyzon"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/easyzon_"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UCC2TNxv-1GQhuHgjIDHMaeg/featured"><i class="fa fa-youtube"></i></a></li>
+    <li><a href="https://www.linkedin.com/company/easyzon"><i class="fa fa-linkedin"></i></a></li>
   </ul>
 </div>
       </div class="col-sm-6">
