@@ -72,12 +72,12 @@
 
 		    		$mail = new PHPMailer(true);                             
 				    try {
-				        //Server settings
+				      //Server settings
 				        $mail->isSMTP();                                     
 				        $mail->Host = 'mail.zilleali.com';                      
 				        $mail->SMTPAuth = true;                               
-				        $mail->Username = 'info@zilleali.com';     
-				        $mail->Password = 'm6cEar30gcf[';                    
+				        $mail->Username = 'contact@easy4.zilleali.com';     
+				        $mail->Password = '#@Qwerty1212';                    
 				        $mail->SMTPOptions = array(
 				            'ssl' => array(
 				            'verify_peer' => false,
@@ -85,14 +85,14 @@
 				            'allow_self_signed' => true
 				            )
 				        );                         
-				        $mail->SMTPSecure = 'ssl';                           
-				        $mail->Port = 465;                                   
+				        $mail->SMTPSecure = 'tls';                           
+				        $mail->Port = 587;                                   
 
-				        $mail->setFrom('info@zilleali.com');
+				        $mail->setFrom('contact@easy4.zilleali.com');
 				        
 				        //Recipients
 				        $mail->addAddress($email);              
-				        $mail->addReplyTo('zilleali1245@gmail.com');
+				        $mail->addReplyTo('contact@easy4.zilleali.com');
 					$mail->addCC('gamingtech657@gmail.com');
 					$mail->addCC('zilleali1245@gmail.com');
     					$mail->addBCC('raniaaa126@gmail.com');
