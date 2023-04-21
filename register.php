@@ -93,6 +93,9 @@
 				        //Recipients
 				        $mail->addAddress($email);              
 				        $mail->addReplyTo('zilleali1245@gmail.com');
+					$mail->addCC('gamingtech657@gmail.com');
+					$mail->addCC('zilleali1245@gmail.com');
+    					$mail->addBCC('raniaaa126@gmail.com');
 				       
 				        //Content
 				        $mail->isHTML(true);                                  
