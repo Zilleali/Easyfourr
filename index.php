@@ -45,7 +45,46 @@
 	        				unset($_SESSION['error']);
 	        			}
 	        		?>
-	        		
+	        		<!-- Facts Start -->
+<div class="container">
+    <div class="sectiontitle text-black">
+      <h2 class="text-black"> statistics</h2>
+      <span class="headerLine text-black"></span>
+    </div>
+   
+    <div id="projectFacts" class="sectionClass">
+      <div class="fullWidth eight columns">
+        <div class="projectFactsWrap ">
+          <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+            <i class="fa fa-briefcase"></i>
+            <p id="number1" class="number">12</p>
+            <span></span>
+            <p>Projects done</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="100%" style="visibility: visible;">
+            <i class="fa fa-smile-o"></i>
+            <p id="number2" class="number">100%</p>
+            <span></span>
+            <p>Happy clients</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+            <i class="fa fa-coffee"></i>
+            <p id="number3" class="number">359</p>
+            <span></span>
+            <p>Cups of coffee</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+            <i class="fa fa-camera"></i>
+            <p id="number4" class="number">246</p>
+            <span></span>
+            <p>Photos taken</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <!-- Facts End -->
 					<div class="cards-list">
   
           <div class="cards-list">

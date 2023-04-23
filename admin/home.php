@@ -78,7 +78,7 @@
             <div class="icon">
               <i class="fa fa-shopping-cart"></i>
             </div>
-            <a href="book.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="sales.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -99,7 +99,7 @@
             <div class="icon">
               <i class="fa fa-barcode"></i>
             </div>
-            <a href="student.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="product.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -120,7 +120,7 @@
             <div class="icon">
               <i class="fa fa-users"></i>
             </div>
-            <a href="return.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="users.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -147,7 +147,8 @@
             <div class="icon">
               <i class="fa fa-money"></i>
             </div>
-            <a href="borrow.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <!-- This is commnet due to because its just show today sale so i commnet zill :) -->
+            <!-- <a href="borrow.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a> -->
           </div>
         </div>
         <!-- ./col -->
@@ -164,7 +165,8 @@
                     <label>Select Year: </label>
                     <select class="form-control input-sm" id="select_year">
                       <?php
-                        for($i=2015; $i<=2065; $i++){
+                      // Years define for years duration 
+                        for($i=2023; $i<=2024; $i++){
                           $selected = ($i==$year)?'selected':'';
                           echo "
                             <option value='".$i."' ".$selected.">".$i."</option>
