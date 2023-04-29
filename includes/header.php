@@ -4,7 +4,7 @@
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="images/coding.png" type="image/x-icon">
-  	<title>EasyFour</title>
+  	<title>EasyFourr</title>
   	<!-- Tell the browser to be responsive to screen width -->
   	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   	<!-- Bootstrap 3.3.7 -->
@@ -35,10 +35,12 @@
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     <!-- Google Recaptcha -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
- <!-- Custom CSS -->
- <link rel="stylesheet" href="dist/css/custom-css.css">
+
   	<!-- Custom CSS -->
     <style type="text/css">
+      a{
+        text-decoration:none !important;
+      }
     /* Small devices (tablets, 768px and up) */
     @media (min-width: 768px){ 
       #navbar-search-input{ 
@@ -52,10 +54,14 @@
     /* Medium devices (desktops, 992px and up) */
     @media (min-width: 992px){ 
       #navbar-search-input{ 
-        width: 150px; 
+        width: 200px; 
+        border-radius: 10px;
+        color: #fff;
       }
       #navbar-search-input:focus{ 
         width: 250px; 
+        color: black;
+        /* border-radius: 10px !important; */
       } 
     }
 
