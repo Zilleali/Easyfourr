@@ -1,6 +1,7 @@
 <?php include 'includes/session.php'; ?>
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue layout-top-nav">
+  <link rel="stylesheet" href="style1.css">
 <div class="wrapper">
 
 	<?php include 'includes/navbar.php'; ?>
@@ -46,7 +47,44 @@
 	        			}
 	        		?>
 	        		<!-- Facts Start -->
-
+<div class="container">
+    <div class="sectiontitle text-black">
+      <h2 class="text-black"> statistics</h2>
+      <span class="headerLine text-black"></span>
+    </div>
+   
+    <div id="projectFacts" class="sectionClass">
+      <div class="fullWidth eight columns">
+        <div class="projectFactsWrap ">
+          <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+            <i class="fa fa-briefcase"></i>
+            <p id="number1" class="number">12</p>
+            <span></span>
+            <p>Projects done</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="100%" style="visibility: visible;">
+            <i class="fa fa-smile-o"></i>
+            <p id="number2" class="number">100%</p>
+            <span></span>
+            <p>Happy clients</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+            <i class="fa fa-coffee"></i>
+            <p id="number3" class="number">359</p>
+            <span></span>
+            <p>Cups of coffee</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+            <i class="fa fa-camera"></i>
+            <p id="number4" class="number">246</p>
+            <span></span>
+            <p>Photos taken</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
     <!-- Facts End -->
 					<!-- <div class="cards-list"> -->
           <div class="container">
@@ -55,62 +93,44 @@
                 </h1>
               </div>
   
-          <div class="cards-list">
-                <!-- Digital Marketing -->
-                <div class="card 1">
-                  <div class="card_image"> <img src="images/digitalmarketing.jpg" alt="Digital Marketing" /> </div>
-                  <a href="https://easy4.zilleali.com/category.php?category=Digital-Marketing">
-                    <div class="card_title title-white">
-                      <p>Digital Marketing</p>
-                    </div>
-                  </a>
-                </div>
-                <!-- Graphics & Design -->
-                <div class="card 1">
-                  <div class="card_image"> <img src="images/design2.jpg" alt="Graphics & Design" /> </div>
-                  <a href="https://easy4.zilleali.com/category.php?category=Graphics-Design">
-                    <div class="card_title title-white">
-                      <p>Graphics & Design</p>
-                    </div>
-                  </a>
-                </div>
-                <!-- Programing & Tech -->
-                <div class="card 1">
-                  <div class="card_image"> <img src="images/h1.jpg" alt="Programing & Tech" /> </div>
-                  <a href="https://easy4.zilleali.com/category.php?category=Programing-Tech">
-                    <div class="card_title title-white">
-                      <p>Programing & Tech</p>
-                    </div>
-                  </a>
-                </div>
-                <!-- Video Editing -->
-                <div class="card 1">
-                  <div class="card_image"> <img src="images/h3.jpg" alt="Video Editing" /> </div>
-                  <a href="https://easy4.zilleali.com/category.php?category=Video-Editing">
-                    <div class="card_title title-white">
-                      <p>Video Editing</p>
-                    </div>
-                  </a>
-                </div>
-                <!-- Contant Creation -->
-                <div class="card 1">
-                  <div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
-                  <a href="https://easy4.zilleali.com/category.php?category=Contant-Creation">
-                    <div class="card_title title-white">
-                      <p>Contant Creation</p>
-                    </div>
-                  </a>
-                </div>
-                <!-- SEO & SMM -->
-                <div class="card 1">
-                  <div class="card_image"> <img src="images/seo.jpg" alt="SEO & SMM" /> </div>
-                  <a href="https://easy4.zilleali.com/category.php?category=SEO-SMM">
-                    <div class="card_title title-white">
-                      <p>SEO & SMM</p>
-                    </div>
-                  </a>
-                </div>
+<div class="card 1">
+  <div class="card_image"> <img src="images/digitalmarketing.jpg" /> </div>
+  <div class="card_title title-white">
+    <p>Digital Marketing</p>
+  </div>
+</div>
 
+<div class="card 1">
+  <div class="card_image"> <img src="images/design2.jpg" /> </div>
+  <div class="card_title title-white">
+    <p>Graphics & Design</p>
+  </div>
+</div>
+<div class="card 1">
+  <div class="card_image"> <img src="images/h1.jpg" /> </div>
+  <div class="card_title title-white">
+    <p>Programing & Tech</p>
+  </div>
+</div>
+<div class="card 1">
+  <div class="card_image"> <img src="images/h3.jpg" /> </div>
+  <div class="card_title title-white">
+    <p>Video Editing</p>
+  </div>
+</div>
+
+<div class="card 1">
+  <div class="card_image"> <img src="images/content-writing2.jpg" /> </div>
+  <div class="card_title title-white">
+    <p>Contant Creation</p>
+  </div>
+</div>
+<div class="card 1">
+  <div class="card_image"> <img src="images/seo.jpg" /> </div>
+  <div class="card_title title-white">
+    <p>SEO & SMM</p>
+  </div>
+</div>
 
   <!-- <div class="card 2">
   <div class="card_image">
@@ -138,70 +158,32 @@
     <p>Card Title</p>
   </div>
   </div> -->
+  
+  
 
-</div>
+  
+  
+
+  <section class="section4">
+       <div class="col-sm-6 ">
+           <h1><b>The best part? Everything.</b></h1>
+           <h3><b>Stick to your budget</b></h3>
+           <p><h4>Find the right service for every price point. No hourly rates, just project-based pricing.</h4></p>
+           <h3><b>Get quality work done quickly</b></h3>
+           <p><h4>Hand your project over to a talented freelancer in minutes, get long-lasting results.</h4></p>
+           <h3><b>Pay when you're happy</b></h3>
+           <p><h4>Upfront quotes mean no surprises. Payments only get released when you approve.</h4></p>
+           <h3><b>Count on 24/7 support</b></h3>
+           <p><h4>Our round-the-clock support team is available to help anytime, anywhere.</h4></p>
+        </div>
+
+        <div class="col-sm-6">
+             <img src="images/banner4.jpg" alt="" srcset="">
+        </div>
+  </section>
+
 <style>
-	.cards-list {
-  z-index: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.card {
-  margin: 30px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 40px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-.card .card_image {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-}
-
-.card .card_image img {
-  width: inherit;
-  height: inherit;
-  border-radius: 40px;
-  object-fit: cover;
-}
-
-.card .card_title {
-  text-align: center;
-  border-radius: 0px 0px 40px 40px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  margin-top: -80px;
-  height: 40px;
-}
-
-.card:hover {
-  transform: scale(0.9, 0.9);
-  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
-    -5px -5px 30px 15px rgba(0,0,0,0.22);
-}
-
-.title-white {
-  color: white;
-}
-
-.title-black {
-  color: black;
-}
-
-@media all and (max-width: 500px) {
-  .card-list {
-    /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
-  }
-}
+  
 
 
 /* 
