@@ -17,6 +17,7 @@
 	$pdo->close();
 
 ?>
+
 <?php include 'includes/header.php'; ?>
 <body class="hold-transition skin-blue layout-top-nav">
 <div class="wrapper">
@@ -31,7 +32,7 @@
 	        <div class="row">
 	        	<div class="col-sm-9">
 		            <h1 class="page-header"><?php echo $cat['name']; ?></h1>
-		       		<?php
+               <?php
 		       			
 		       			$conn = $pdo->open();
 
@@ -67,7 +68,7 @@
 
 						$pdo->close();
 
-		       		?> 
+		       		?>  
 	        	</div>
 	        	<div class="col-sm-3">
 	        		<?php include 'includes/sidebar.php'; ?>
@@ -80,7 +81,15 @@
   
   	<?php include 'includes/footer.php'; ?>
 </div>
+<script>
+	$('.buy').click(function(){
+  $('.bottom').addClass("clicked");
+});
 
+$('.remove').click(function(){
+  $('.bottom').removeClass("clicked");
+});
+</script>
 <?php include 'includes/scripts.php'; ?>
 </body>
 </html>

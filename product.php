@@ -28,7 +28,7 @@ if ($product['date_view'] == $now) {
 <?php include 'includes/header.php'; ?>
 
 <body class="hold-transition skin-blue layout-top-nav">
-	<script>
+	<!-- <script>
 		(function (d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
 			if (d.getElementById(id)) return;
@@ -36,7 +36,7 @@ if ($product['date_view'] == $now) {
 			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
-	</script>
+	</script> -->
 	<div class="wrapper">
 
 		<?php include 'includes/navbar.php'; ?>
@@ -47,7 +47,7 @@ if ($product['date_view'] == $now) {
 				<!-- Main content -->
 				<section class="content">
 					<div class="row">
-						<div class="col-sm-9">
+						<div class="col-sm-9 col-lg-12">
 							<div class="callout" id="callout" style="display:none">
 								<button type="button" class="close"><span aria-hidden="true">&times;</span></button>
 								<span class="message"></span>
@@ -55,14 +55,14 @@ if ($product['date_view'] == $now) {
 							<div class="row">
 								<div class="col-sm-6 col-lg-7">
 									<h1 class="page-header">
-										<?php echo $product['prodname']; ?>
+										<?php echo '<b style="font-size:25px;line-height: 28px;padding-bottom: 25px;">'.$product['prodname']. '</b>'; ?>
 									</h1>
 									
-									<p><b>Category:</b> <a
+									<p><b style="font-size:25px;line-height: 28px;padding-bottom: 25px;">Category:</b> <a
 											href="category.php?category=<?php echo $product['cat_slug']; ?>"><?php echo $product['catname']; ?></a></p>
-									<p><b>Description:</b></p>
-									<p>
-										<?php echo $product['description']; ?>
+									<p><b style="font-size:23px;line-height: 28px;padding-bottom: 25px;">Description:</b></p>
+									<p style="font:400 16px/24px Macan,Helvetica Neue,Helvetica,Arial,sans-serif !important">
+										<?php echo '<div style="font:500 18px/24px sans-serif,Myriad-Pro !important">'. $product['description'] .'</div>'; ?>
 									</p>
 								</div>
 								<div class="col-sm-5 ">
