@@ -46,52 +46,81 @@
 	        				unset($_SESSION['error']);
 	        			}
 	        		?>
-	        		<!-- Facts Start -->
-<div class="container">
-    <div class="sectiontitle text-black">
-      <h2 class="text-black"> statistics</h2>
-      <span class="headerLine text-black"></span>
-    </div>
-   
-    <div id="projectFacts" class="sectionClass">
-      <div class="fullWidth eight columns">
-        <div class="projectFactsWrap ">
-          <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
-            <i class="fa fa-briefcase"></i>
-            <p id="number1" class="number">12</p>
-            <span></span>
-            <p>Projects done</p>
-          </div>
-          <div class="item wow fadeInUpBig animated animated" data-number="100%" style="visibility: visible;">
-            <i class="fa fa-smile-o"></i>
-            <p id="number2" class="number">100%</p>
-            <span></span>
-            <p>Happy clients</p>
-          </div>
-          <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
-            <i class="fa fa-coffee"></i>
-            <p id="number3" class="number">359</p>
-            <span></span>
-            <p>Cups of coffee</p>
-          </div>
-          <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
-            <i class="fa fa-camera"></i>
-            <p id="number4" class="number">246</p>
-            <span></span>
-            <p>Photos taken</p>
-          </div>
+	        		<h2><b>Popular services</b></h2>
+              <div class="blog1-card">
+      <input type="radio" name="select" id="tap-1" checked>
+      <input type="radio" name="select" id="tap-2">
+      <input type="radio" name="select" id="tap-3">
+      <input type="radio" name="select" id="tap-4">
+      <input type="radio" name="select" id="tap-5">
+
+      <input type="checkbox" id="imgTap">
+      <div class="sliders1">
+        <label for="tap-1" class="tap tap-1"></label>
+        <label for="tap-2" class="tap tap-2"></label>
+        <label for="tap-3" class="tap tap-3"></label>
+        <label for="tap-4" class="tap tap-4"></label>
+        <label for="tap-5" class="tap tap-5"></label>
+
+      </div>
+      <div class="inner1-part">
+        <label for="imgTap" class="img">
+          <img class="img-1" src="images/image1.jpg">
+        </label>
+        <div class="content9 content-1">
+          <span>Build your Brand</span>
+          <div class="title">Logo Design</div>
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo animi atque aliquid pariatur voluptatem numquam, quisquam. Neque est voluptates doloribus!</div>
+          <button>Read more</button>
+        </div>
+      </div>
+      <div class="inner1-part">
+        <label for="imgTap" class="img">
+          <img class="img-2" src="images/image2.jpg">
+        </label>
+        <div class="content9 content-2">
+          <span>Customize your site</span>
+          <div class="title">Wordpress</div>
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eos ut consectetur numquam ullam fuga animi laudantium nobis rem molestias.</div>
+          <button>Read more</button>
+        </div>
+      </div>
+      <div class="inner1-part">
+        <label for="imgTap" class="img">
+          <img class="img-3" src="images/image3.jpg">
+        </label>
+        <div class="content9 content-3">
+          <span>Engage your audience</span>
+          <div class="title">Video Explainer</div>
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod excepturi nemo commodi sint eum ipsam odit atque aliquam officia impedit.</div>
+          <button>Read more</button>
+        </div>
+      </div>
+      <div class="inner1-part">
+        <label for="imgTap" class="img">
+          <img class="img-4" src="images/image4.jpg">
+        </label>
+        <div class="content9 content-4">
+          <span>Color your dreams</span>
+          <div class="title">Illustration</div>
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod excepturi nemo commodi sint eum ipsam odit atque aliquam officia impedit.</div>
+          <button>Read more</button>
+        </div>
+      </div>
+      <div class="inner1-part">
+        <label for="imgTap" class="img">
+          <img class="img-5" src="images/image5.jpg">
+        </label>
+        <div class="content9 content-5">
+          <span>Reach more customers</span>
+          <div class="title">Social media</div>
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod excepturi nemo commodi sint eum ipsam odit atque aliquam officia impedit.</div>
+          <button>Read more</button>
         </div>
       </div>
     </div>
-    </div>
-  
-    <!-- Facts End -->
-					<!-- <div class="cards-list"> -->
-          <div class="container">
-                <h1 class="text-left text-black " style="font-size:50px"> Find The Perfect Services<br> For Your
-                  Business
-                </h1>
-              </div>
+
+					<div class="cards-list">
   
 <div class="card 1">
   <div class="card_image"> <img src="images/digitalmarketing.jpg" /> </div>
