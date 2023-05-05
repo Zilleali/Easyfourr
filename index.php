@@ -54,7 +54,7 @@
       <input type="radio" name="select" id="tap-4">
       <input type="radio" name="select" id="tap-5">
 
-      <input type="checkbox" id="imgTap">
+      <input type="checkbox" >
       <div class="sliders1">
         <label for="tap-1" class="tap tap-1"></label>
         <label for="tap-2" class="tap tap-2"></label>
