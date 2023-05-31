@@ -168,18 +168,18 @@
   <div class="card_title title-white">
     <p>Card Title</p>
   </div>
-</div> -->
+</div> 
 
-<!-- <div class="card 3">
+<div class="card 3">
   <div class="card_image">
     <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
   </div>
   <div class="card_title">
     <p>Card Title</p>
   </div>
-</div> -->
+</div> 
   
-  <!-- <div class="card 4">
+  <div class="card 4">
   <div class="card_image">
     <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
     </div>
@@ -210,7 +210,32 @@
              <img src="images/banner4.jpg" alt="" srcset="">
         </div>
   </section>
+  <div class="card 3">
+  <div class="card_image">
+    <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+  </div>
+  <div class="card_title">
+    <p>Card Title</p>
+  </div>
+</div> 
 
+<div class="card 3">
+  <div class="card_image">
+    <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+  </div>
+  <div class="card_title">
+    <p>Card Title</p>
+  </div>
+</div> 
+  
+<div class="card 3">
+  <div class="card_image">
+    <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
+  </div>
+  <div class="card_title">
+    <p>Card Title</p>
+  </div>
+</div> 
 <style>
   
 
